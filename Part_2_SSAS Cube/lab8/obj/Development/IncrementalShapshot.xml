@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>lab8</Database>
+    <Server>DESKTOP-I9HTS88\TANMAY</Server>
+    <ConnectionString>Data Source=DESKTOP-I9HTS88\TANMAY;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>QYzXWNXy39ab5fyqS3vgZ+5UCo0=2/3/2025 4:28:35 AM2/3/2025 3:47:13 AM</TimeStamp>
+        <ID>
+          <String>Adventure Works2022</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>XZtGUBv87PfKEJEI6gxR1bGxO1c=2/3/2025 1:08:44 AM2/3/2025 1:08:44 AM</TimeStamp>
+        <ID>
+          <String>Adventure Works2022</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>mhrJbQ0VNmJedgJxUqtX0YwOpZ0=2/3/2025 6:05:12 AM2/3/2025 4:58:52 AM</TimeStamp>
+        <ID>
+          <String>Sales Location DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6MS0A3g8rI2kITVM/4V+lN66m6U=2/3/2025 6:05:12 AM2/3/2025 4:58:52 AM</TimeStamp>
+        <ID>
+          <String>Product DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>b7eEFyyrvVpEZNhM9+kN1U5WBcs=2/3/2025 6:04:51 AM2/3/2025 4:43:23 AM</TimeStamp>
+        <ID>
+          <String>Time DIM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>FBvUeGREUDExi0wjN5hgmbvSMJY=2/3/2025 7:00:55 AM2/3/2025 4:47:34 AMqtdmqx90rXJkFrbeRdFDxfVVSTQ=2/3/2025 4:58:52 AM2/3/2025 4:47:34 AM</TimeStamp>
+        <ID>
+          <String>Adventure Works2022</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>Pa05UhL41BqPikI6VyrMPaqD1kM=2/3/2025 1:06:25 AM2/3/2025 1:06:25 AM</TimeStamp>
+      <ID>
+        <String>lab8</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-02-03T06:00:57.666667Z</LastDeployed>
+</DeploymentSnapshot>
